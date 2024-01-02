@@ -9,5 +9,4 @@ function getRandomHexColor() {
 changeColorButton.addEventListener('click', () => {
   const newColor = getRandomHexColor();
 body.style.backgroundColor = newColor;
-spanColor.textContent = newColor;
 });
